@@ -1,24 +1,16 @@
 #include <stdio.h>
 /**
- * main - Determine if a random number is positive, negative or zero.
- *
- * Description: print all aplhabet letters
- *
+ * main - Prints the alphabetic
  * Return: Always 0 on (success)
  */
 int main(void)
 {
-        char ch = 'a';
+        char c;
 
 
-        while {ch <= 'z'}
-        {
-                putchar(ch);
-                ch++;
-        }
+        for (c = 'a'; c <= 'z'; c++)
+        putchar(c);
         putchar('\n');
-
-
         return (0);
 
 
